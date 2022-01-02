@@ -113,3 +113,26 @@ body {
     transform: scale(1.2,1.2); /* Aumenta el tamaño de la letras sin modificar los estilos de lso elementos */
 }
 
+/*BANNER*/
+#banner{
+    width: 95.6%;
+    height: 100px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray ;
+    background: url('/img/bakbaner.png');
+    background-position: -200px -200px;
+    margin: 20px auto;
+}
+
+#banner h1{
+    display: block;
+    width: 442px;
+    font-family: "BebasNeue";
+    color:white;
+    font-size: 45px;
+    font-weight: normal;
+    text-shadow: 2px 2px 1px black;
+    letter-spacing: 2px;
+    margin:27px auto;
+}
+
