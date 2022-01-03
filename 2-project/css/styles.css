@@ -381,7 +381,7 @@ aside h3 {
 }
 
 #articles article {
-  width: 100%;
+  width: 97.7%;
   height: auto;
   border: 1px solid #ccc;
   margin: 40px auto;
@@ -391,6 +391,7 @@ aside h3 {
   color: black;
   box-shadow: 1px 1px 2px #ddd;
 }
+
 
 #articles article h4 {
   display: block;
@@ -428,5 +429,21 @@ aside h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 15px;
+}
+
+#blog{
+  height: 100px;
+  margin-top: 60px;
+  line-height: 100px;
+  text-align: center;
+}
+
+#blog a{
+  display: block; /*De esta forma toda la caja es clicable y te envia al enlace*/
+  font-family: 'BebasNeue';
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #00538c;
+  text-decoration: none;
 }
 
