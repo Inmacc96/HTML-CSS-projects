@@ -176,4 +176,70 @@
   #lateral input[type="text"] {
     width: 70%;
   }
+
+  #footer h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 660px) {
+  .aside-box {
+    min-height: 140px;
+  }
+
+  #lateral {
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+    min-height: auto;
+    margin-top: 20px;
+  }
+
+  #lateral input[type="text"] {
+    width: 93%;
+  }
+
+  #login input[type="email"],
+  #login input[type="password"] {
+    width: 90%;
+  }
+
+  #articles {
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+    min-height: auto;
+  }
+
+  #articles h2 {
+    margin-top: 45px;
+    font-size: 30px;
+  }
+
+  #footer {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  #footer .wrap > div {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+
+  #footer .wrap > div:first-child {
+    height: 300px;
+  }
+
+  #footer h5 {
+    font-size: 25px;
+  }
+
+  #footer #info_footer{
+    margin-top: 60px;
+  }
+
+  #footer #browsers img {
+    width: 7%;
+}
 }
