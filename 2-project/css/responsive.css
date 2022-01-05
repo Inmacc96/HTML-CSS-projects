@@ -152,6 +152,19 @@
   .card .description {
     display: none;
   }
+
+  .card:hover .icon {
+    font-size: 35px;
+  }
+
+  .card:hover .description {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .card:hover .category {
+    display: none;
+  }
 }
 
 @media (max-width: 724px) {
@@ -183,6 +196,10 @@
 }
 
 @media (max-width: 660px) {
+  .card:hover .icon {
+    font-size: 50px;
+  }
+
   .aside-box {
     min-height: 140px;
   }
@@ -196,7 +213,7 @@
   }
 
   #lateral input[type="text"] {
-    width: 93%;
+    width: 91%;
   }
 
   #login input[type="email"],
@@ -235,11 +252,112 @@
     font-size: 25px;
   }
 
-  #footer #info_footer{
+  #footer #info_footer {
     margin-top: 60px;
   }
 
   #footer #browsers img {
     width: 7%;
+  }
 }
+
+@media (max-width: 565px) {
+  #logo {
+    float: left;
+  }
+
+  #header {
+    height: 275px;
+  }
+
+  #menu {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  #menu ul li {
+    width: 100%;
+    line-height: 52px;
+  }
+
+  #menu ul li a:hover {
+    color: #37bcf9;
+    transform: scale(1, 1);
+  }
+
+  #banner {
+    height: 85px;
+  }
+
+  #banner h1 {
+    margin: 25px auto;
+    font-size: 25px;
+  }
+
+  .card .icon {
+    font-size: 35px;
+  }
+
+  .card:hover .icon {
+    font-size: 35px;
+  }
+
+  .card .category {
+    font-size: 13px;
+  }
+
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .card{
+    flex-grow: 1;
+    flex-basis: 30%;
+  }
+
+  #articles .data {
+    float: none;
+    margin: -10px;
+    border-radius: 0px;
+  }
+  #articles article h4 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 465px) {
+  .card .icon {
+    font-size: 25px;
+  }
+
+  .card .category {
+    font-size: 10px;
+  }
+
+  #lateral input[type="text"] {
+    width: 88%;
+  }
+
+  #login input[type="email"],
+  #login input[type="password"] {
+    width: 84%;
+  }
+}
+
+@media (max-width: 340px) {
+  #banner {
+    height: 70px;
+  }
+
+  #banner h1 {
+    font-size: 20px;
+  }
+
+  #lateral input[type="text"] {
+    width: 84%;
+  }
 }
