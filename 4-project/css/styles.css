@@ -76,14 +76,17 @@
   align-items: start;
   justify-items: space-between;
   grid-column-gap: 6px;
-  padding-top: 20px;
+  padding-top: 7px;
   padding-bottom: 20px;
 }
 
 #projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 255px); /*auto-fill: calcula las columnas necesarias*/
-  grid-gap: 3px;
+  grid-template-columns: repeat(
+    auto-fill,
+    255px
+  ); /*auto-fill: calcula las columnas necesarias*/
+  grid-gap: 20px;
   align-items: start;
 }
 
@@ -116,63 +119,63 @@
   color: gray;
 }
 
-#aside{
-    margin-right: 30px;
-    padding: 15px;
+#aside {
+  margin-right: 30px;
+  padding: 15px;
 }
 
-#aside h2{
-    display: block;
-    width: 100%;
-    font-size: 18px;
-    font-weight: 100;
-    color: #444;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
-    text-align: center;
+#aside h2 {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 100;
+  color: #444;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+  text-align: center;
 }
 
-#aside ul{
-    list-style: none;
+#aside ul {
+  list-style: none;
 }
 
-#aside ul li{
-    padding-bottom: 20px;
+#aside ul li {
+  padding-bottom: 20px;
 }
 
-#aside a{
-    display: block;
-    padding: 20px;
-    background-color:  #eee;
-    color: #444;
-    text-align: center;
-    text-transform: uppercase;
-    transition: all 300ms;
+#aside a {
+  display: block;
+  padding: 20px;
+  background-color: #eee;
+  color: #444;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 300ms;
 }
 
-#aside a:hover{
-    background-color: #444;
-    color: #eee;
+#aside a:hover {
+  background-color: #444;
+  color: #eee;
 }
 
-#footer{
+#footer {
   display: grid;
   grid-template-columns: 1fr 25%;
   align-items: center;
   justify-content: start;
-    height: 120px;
-    align-items: center;
-    border-top: 1px solid rgba(225, 225, 226, 0.8);
+  height: 120px;
+  align-items: center;
+  border-top: 1px solid rgba(225, 225, 226, 0.8);
 }
 
-#footer .logo{
-    opacity: 0.5;
-    text-align: left;
-    margin-right: 20px;
+#footer .logo {
+  opacity: 0.5;
+  text-align: left;
+  margin-right: 20px;
 }
 
-#footer .info{
-    margin-left: 20px;
-    color: #444;
+#footer .info {
+  margin-left: 20px;
+  color: #444;
 }
